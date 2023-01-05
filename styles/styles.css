@@ -8,6 +8,7 @@
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    background-size: auto;
 }
 
 /* header and navigation style */
@@ -19,13 +20,13 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px;
-    margin-left: 50px;
+    padding: 50px 100px;
 }
 
 nav ul {
     display: flex;
     align-items: center;
+    margin-bottom: 0;
 }
 
 nav li {
@@ -69,8 +70,7 @@ nav li {
 .banner {
     margin: 0px 200px;
     display: flex;
-    align-items: center;
-    height: 500px;
+    height: 400px;
 }
 
 .banner-title {
